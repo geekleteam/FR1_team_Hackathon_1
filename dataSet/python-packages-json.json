@@ -1,0 +1,517 @@
+[
+  {
+    "name": "FastAPI",
+    "domain": "Web Development",
+    "description": "Modern, fast web framework for building APIs with Python"
+  },
+  {
+    "name": "Starlette",
+    "domain": "Web Development",
+    "description": "Lightweight ASGI framework/toolkit for building async web services"
+  },
+  {
+    "name": "Uvicorn",
+    "domain": "Web Server",
+    "description": "Lightning-fast ASGI server"
+  },
+  {
+    "name": "aiohttp",
+    "domain": "Async HTTP",
+    "description": "Asynchronous HTTP client/server framework"
+  },
+  {
+    "name": "httpx",
+    "domain": "HTTP Client",
+    "description": "Fully featured HTTP client which provides sync and async APIs"
+  },
+  {
+    "name": "sanic",
+    "domain": "Web Development",
+    "description": "Async web framework for building fast web applications"
+  },
+  {
+    "name": "typer",
+    "domain": "CLI",
+    "description": "Library for building CLI applications"
+  },
+  {
+    "name": "click",
+    "domain": "CLI",
+    "description": "Package for creating command line interfaces"
+  },
+  {
+    "name": "rich",
+    "domain": "Terminal Formatting",
+    "description": "Library for rich text and beautiful formatting in the terminal"
+  },
+  {
+    "name": "tqdm",
+    "domain": "Progress Bars",
+    "description": "Fast, extensible progress bar for loops and CLI"
+  },
+  {
+    "name": "streamlit",
+    "domain": "Web Apps",
+    "description": "Fastest way to build data apps"
+  },
+  {
+    "name": "dash",
+    "domain": "Web Apps",
+    "description": "Framework for building analytical web applications"
+  },
+  {
+    "name": "gradio",
+    "domain": "Web Apps",
+    "description": "Build demos and web applications for your machine learning model"
+  },
+  {
+    "name": "SQLModel",
+    "domain": "ORM",
+    "description": "SQL databases in Python, designed for simplicity, compatibility, and robustness"
+  },
+  {
+    "name": "peewee",
+    "domain": "ORM",
+    "description": "Small, expressive ORM"
+  },
+  {
+    "name": "pony",
+    "domain": "ORM",
+    "description": "ORM that provides a generator-based query syntax"
+  },
+  {
+    "name": "alembic",
+    "domain": "Database Migrations",
+    "description": "Lightweight database migration tool for SQLAlchemy"
+  },
+  {
+    "name": "databases",
+    "domain": "Async Database",
+    "description": "Async database support for Python"
+  },
+  {
+    "name": "asyncpg",
+    "domain": "Async Database",
+    "description": "Fast PostgreSQL Database Client Library for Python/asyncio"
+  },
+  {
+    "name": "motor",
+    "domain": "Async Database",
+    "description": "Asynchronous Python driver for MongoDB"
+  },
+  {
+    "name": "redis-py",
+    "domain": "Key-Value Store",
+    "description": "Redis Python Client"
+  },
+  {
+    "name": "aioredis",
+    "domain": "Async Key-Value Store",
+    "description": "Async Redis client for Python"
+  },
+  {
+    "name": "pymongo",
+    "domain": "Database",
+    "description": "Python driver for MongoDB"
+  },
+  {
+    "name": "cassandra-driver",
+    "domain": "Database",
+    "description": "Python driver for Apache Cassandra"
+  },
+  {
+    "name": "mysqlclient",
+    "domain": "Database",
+    "description": "MySQL database connector for Python"
+  },
+  {
+    "name": "psycopg2",
+    "domain": "Database",
+    "description": "PostgreSQL database adapter for Python"
+  },
+  {
+    "name": "sqlalchemy",
+    "domain": "ORM",
+    "description": "SQL toolkit and Object-Relational Mapping library"
+  },
+  {
+    "name": "tortoise-orm",
+    "domain": "Async ORM",
+    "description": "Easy-to-use asyncio ORM inspired by Django"
+  },
+  {
+    "name": "pyjwt",
+    "domain": "Authentication",
+    "description": "JSON Web Token implementation in Python"
+  },
+  {
+    "name": "passlib",
+    "domain": "Password Hashing",
+    "description": "Password hashing library"
+  },
+  {
+    "name": "itsdangerous",
+    "domain": "Data Signing",
+    "description": "Various helpers to pass trusted data to untrusted environments"
+  },
+  {
+    "name": "python-dotenv",
+    "domain": "Environment Variables",
+    "description": "Read key-value pairs from a .env file and set them as environment variables"
+  },
+  {
+    "name": "environs",
+    "domain": "Environment Variables",
+    "description": "Simplified environment variable parsing"
+  },
+  {
+    "name": "pyyaml",
+    "domain": "Data Serialization",
+    "description": "YAML parser and emitter for Python"
+  },
+  {
+    "name": "toml",
+    "domain": "Data Serialization",
+    "description": "Python Library for TOML"
+  },
+  {
+    "name": "ujson",
+    "domain": "JSON",
+    "description": "Ultra fast JSON encoder and decoder"
+  },
+  {
+    "name": "orjson",
+    "domain": "JSON",
+    "description": "Fast, correct Python JSON library"
+  },
+  {
+    "name": "msgpack",
+    "domain": "Data Serialization",
+    "description": "MessagePack serializer implementation for Python"
+  },
+  {
+    "name": "protobuf",
+    "domain": "Data Serialization",
+    "description": "Protocol Buffers - Google's data interchange format"
+  },
+  {
+    "name": "cerberus",
+    "domain": "Data Validation",
+    "description": "Lightweight, extensible data validation library"
+  },
+  {
+    "name": "marshmallow",
+    "domain": "Data Serialization",
+    "description": "ORM/ODM/framework-agnostic library for converting complex datatypes to and from native Python datatypes"
+  },
+  {
+    "name": "attrs",
+    "domain": "Classes",
+    "description": "Classes Without Boilerplate"
+  },
+  {
+    "name": "dataclasses",
+    "domain": "Classes",
+    "description": "Data Classes for Python"
+  },
+  {
+    "name": "pydantic",
+    "domain": "Data Validation",
+    "description": "Data validation and settings management using Python type annotations"
+  },
+  {
+    "name": "python-multipart",
+    "domain": "HTTP",
+    "description": "Streaming multipart parser for Python"
+  },
+  {
+    "name": "python-jose",
+    "domain": "Cryptography",
+    "description": "JavaScript Object Signing and Encryption implementation in Python"
+  },
+  {
+    "name": "bcrypt",
+    "domain": "Password Hashing",
+    "description": "Modern password hashing for your software and your servers"
+  },
+  {
+    "name": "cryptography",
+    "domain": "Cryptography",
+    "description": "Package designed to expose cryptographic primitives and recipes to Python developers"
+  },
+  {
+    "name": "pyotp",
+    "domain": "Authentication",
+    "description": "Python One-Time Password Library"
+  },
+  {
+    "name": "qrcode",
+    "domain": "QR Codes",
+    "description": "Pure python QR Code generator"
+  },
+  {
+    "name": "pillow",
+    "domain": "Image Processing",
+    "description": "Python Imaging Library (Fork)"
+  },
+  {
+    "name": "cairosvg",
+    "domain": "Image Processing",
+    "description": "Cairo-based SVG renderer for Python"
+  },
+  {
+    "name": "reportlab",
+    "domain": "PDF Generation",
+    "description": "Library for generating PDFs and graphics"
+  },
+  {
+    "name": "weasyprint",
+    "domain": "HTML to PDF",
+    "description": "The awesome document factory"
+  },
+  {
+    "name": "pypdf2",
+    "domain": "PDF Processing",
+    "description": "Pure-Python library for PDF document manipulation"
+  },
+  {
+    "name": "openpyxl",
+    "domain": "Excel Processing",
+    "description": "Python library to read/write Excel 2010 xlsx/xlsm files"
+  },
+  {
+    "name": "xlsxwriter",
+    "domain": "Excel Processing",
+    "description": "Python module for creating Excel XLSX files"
+  },
+  {
+    "name": "tablib",
+    "domain": "Data Processing",
+    "description": "Format-agnostic tabular dataset library"
+  },
+  {
+    "name": "chardet",
+    "domain": "Encoding Detection",
+    "description": "Universal encoding detector for Python 2 and 3"
+  },
+  {
+    "name": "python-slugify",
+    "domain": "Text Processing",
+    "description": "A Python slugify application that handles unicode"
+  },
+  {
+    "name": "unidecode",
+    "domain": "Text Processing",
+    "description": "ASCII transliterations of Unicode text"
+  },
+  {
+    "name": "python-dateutil",
+    "domain": "Date and Time",
+    "description": "Extensions to the standard Python datetime module"
+  },
+  {
+    "name": "pytz",
+    "domain": "Date and Time",
+    "description": "World timezone definitions, modern and historical"
+  },
+  {
+    "name": "arrow",
+    "domain": "Date and Time",
+    "description": "Better dates & times for Python"
+  },
+  {
+    "name": "pendulum",
+    "domain": "Date and Time",
+    "description": "Python datetimes made easy"
+  },
+  {
+    "name": "apscheduler",
+    "domain": "Task Scheduling",
+    "description": "In-process task scheduler with Cron-like capabilities"
+  },
+  {
+    "name": "schedule",
+    "domain": "Task Scheduling",
+    "description": "Python job scheduling for humans"
+  },
+  {
+    "name": "rq",
+    "domain": "Task Queue",
+    "description": "Simple job queues for Python"
+  },
+  {
+    "name": "celery",
+    "domain": "Task Queue",
+    "description": "Distributed Task Queue"
+  },
+  {
+    "name": "dramatiq",
+    "domain": "Task Queue",
+    "description": "A fast and reliable background task processing library for Python 3"
+  },
+  {
+    "name": "huey",
+    "domain": "Task Queue",
+    "description": "Little multi-threaded task queue"
+  },
+  {
+    "name": "arq",
+    "domain": "Async Task Queue",
+    "description": "Job queues and RPC in python with asyncio and redis"
+  },
+  {
+    "name": "supervisor",
+    "domain": "Process Control",
+    "description": "A Process Control System"
+  },
+  {
+    "name": "gunicorn",
+    "domain": "WSGI HTTP Server",
+    "description": "WSGI HTTP Server for UNIX"
+  },
+  {
+    "name": "uvloop",
+    "domain": "Event Loop",
+    "description": "Ultra fast asyncio event loop"
+  },
+  {
+    "name": "gevent",
+    "domain": "Concurrency",
+    "description": "Coroutine-based concurrency library for Python"
+  },
+  {
+    "name": "asyncio",
+    "domain": "Asynchronous I/O",
+    "description": "Asynchronous I/O, event loop, coroutines and tasks"
+  },
+  {
+    "name": "aiofiles",
+    "domain": "Async File I/O",
+    "description": "File support for asyncio"
+  },
+  {
+    "name": "aiocache",
+    "domain": "Async Caching",
+    "description": "Asyncio cache implementation"
+  },
+  {
+    "name": "aiosmtplib",
+    "domain": "Async SMTP",
+    "description": "asyncio SMTP client"
+  },
+  {
+    "name": "prometheus_client",
+    "domain": "Monitoring",
+    "description": "Python client for the Prometheus monitoring system"
+  },
+  {
+    "name": "sentry-sdk",
+    "domain": "Error Tracking",
+    "description": "Python client for Sentry"
+  },
+  {
+    "name": "structlog",
+    "domain": "Logging",
+    "description": "Structured Logging for Python"
+  },
+  {
+    "name": "loguru",
+    "domain": "Logging",
+    "description": "Python logging made (stupidly) simple"
+  },
+  {
+    "name": "python-json-logger",
+    "domain": "Logging",
+    "description": "A python library adding a json log formatter"
+  },
+  {
+    "name": "coloredlogs",
+    "domain": "Logging",
+    "description": "Colored terminal output for Python's logging module"
+  },
+  {
+    "name": "faker",
+    "domain": "Testing",
+    "description": "Python package that generates fake data for you"
+  },
+  {
+    "name": "factory_boy",
+    "domain": "Testing",
+    "description": "A fixtures replacement tool"
+  },
+  {
+    "name": "pytest-asyncio",
+    "domain": "Testing",
+    "description": "Pytest support for asyncio"
+  },
+  {
+    "name": "pytest-cov",
+    "domain": "Testing",
+    "description": "Coverage plugin for pytest"
+  },
+  {
+    "name": "pytest-mock",
+    "domain": "Testing",
+    "description": "Thin-wrapper around the mock package for easier use with pytest"
+  },
+  {
+    "name": "black",
+    "domain": "Code Formatting",
+    "description": "The uncompromising Python code formatter"
+  },
+  {
+    "name": "isort",
+    "domain": "Code Formatting",
+    "description": "A Python utility / library to sort imports"
+  },
+  {
+    "name": "flake8",
+    "domain": "Code Linting",
+    "description": "Tool For Style Guide Enforcement"
+  },
+  {
+    "name": "mypy",
+    "domain": "Static Type Checking",
+    "description": "Optional Static Typing for Python"
+  },
+  {
+    "name": "pylint",
+    "domain": "Code Linting",
+    "description": "Python code static checker"
+  },
+  {
+    "name": "bandit",
+    "domain": "Security Linting",
+    "description": "Security oriented static analyser for python code"
+  },
+  {
+    "name": "pre-commit",
+    "domain": "Git Hooks",
+    "description": "A framework for managing and maintaining multi-language pre-commit hooks"
+  },
+  {
+    "name": "python-decouple",
+    "domain": "Configuration",
+    "description": "Strict separation of config from code"
+  },
+  {
+    "name": "dynaconf",
+    "domain": "Configuration",
+    "description": "The dynamic configurator for your Python Project"
+  },
+  {
+    "name": "python-consul",
+    "domain": "Service Discovery",
+    "description": "Python client for Consul"
+  },
+  {
+    "name": "tenacity",
+    "domain": "Retrying",
+    "description": "Retrying library for Python"
+  },
+  {
+    "name": "backoff",
+    "domain": "Retrying",
+    "description": "Function decoration for backoff and retry"
+  }
+]

@@ -1,10 +1,9 @@
-# Phase_1-Team_4
+# solutions-finder-fr-1
 
-1. add your PR
-2. add a link to the live demo
-3. add a link to the demo video
-4. congratulate your team on Submission in the Discord Team Chat
+## How to run this project
 
-Done!
+## Frontend
+To run the Frontend , please follow the instructions in the README located in the /frontend folder of this repository.
 
-*Please note: By submitting your code, you waive any IP rights after submission. You also agree to assist with installation if needed.
+## Backend
+To run the Backend , please follow the instructions in the README located in the /backend folder of this repository.

@@ -1,0 +1,660 @@
+[
+  {
+    "name": "express",
+    "domain": "Web Framework",
+    "description": "Fast, unopinionated, minimalist web framework for Node.js",
+    "npm_downloads": 20000000,
+    "last_release": "2023-05-15"
+  },
+  {
+    "name": "react",
+    "domain": "Frontend Framework",
+    "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces",
+    "npm_downloads": 15000000,
+    "last_release": "2023-06-01"
+  },
+  {
+    "name": "lodash",
+    "domain": "Utility",
+    "description": "A modern JavaScript utility library delivering modularity, performance & extras",
+    "npm_downloads": 18000000,
+    "last_release": "2023-04-20"
+  },
+  {
+    "name": "moment",
+    "domain": "Date and Time",
+    "description": "Parse, validate, manipulate, and display dates in javascript",
+    "npm_downloads": 12000000,
+    "last_release": "2023-03-10"
+  },
+  {
+    "name": "axios",
+    "domain": "HTTP Client",
+    "description": "Promise based HTTP client for the browser and Node.js",
+    "npm_downloads": 14000000,
+    "last_release": "2023-05-25"
+  },
+  {
+    "name": "mongoose",
+    "domain": "Database",
+    "description": "MongoDB object modeling designed to work in an asynchronous environment",
+    "npm_downloads": 8000000,
+    "last_release": "2023-04-30"
+  },
+  {
+    "name": "socket.io",
+    "domain": "Real-time Communication",
+    "description": "Realtime application framework (Node.JS server)",
+    "npm_downloads": 6000000,
+    "last_release": "2023-05-05"
+  },
+  {
+    "name": "dotenv",
+    "domain": "Environment Variables",
+    "description": "Loads environment variables from .env file",
+    "npm_downloads": 10000000,
+    "last_release": "2023-03-20"
+  },
+  {
+    "name": "cors",
+    "domain": "Middleware",
+    "description": "Node.js CORS middleware",
+    "npm_downloads": 9000000,
+    "last_release": "2023-02-15"
+  },
+  {
+    "name": "body-parser",
+    "domain": "Middleware",
+    "description": "Node.js body parsing middleware",
+    "npm_downloads": 11000000,
+    "last_release": "2023-04-10"
+  },
+  {
+    "name": "jest",
+    "domain": "Testing",
+    "description": "Delightful JavaScript Testing",
+    "npm_downloads": 7000000,
+    "last_release": "2023-05-20"
+  },
+  {
+    "name": "eslint",
+    "domain": "Linting",
+    "description": "An AST-based pattern checker for JavaScript",
+    "npm_downloads": 9000000,
+    "last_release": "2023-06-05"
+  },
+  {
+    "name": "webpack",
+    "domain": "Build Tool",
+    "description": "A module bundler for JavaScript",
+    "npm_downloads": 8000000,
+    "last_release": "2023-05-10"
+  },
+  {
+    "name": "chalk",
+    "domain": "Terminal Styling",
+    "description": "Terminal string styling done right",
+    "npm_downloads": 13000000,
+    "last_release": "2023-03-15"
+  },
+  {
+    "name": "commander",
+    "domain": "Command-line Interface",
+    "description": "The complete solution for node.js command-line interfaces",
+    "npm_downloads": 7000000,
+    "last_release": "2023-04-25"
+  },
+  {
+    "name": "morgan",
+    "domain": "Logging",
+    "description": "HTTP request logger middleware for node.js",
+    "npm_downloads": 6000000,
+    "last_release": "2023-02-28"
+  },
+  {
+    "name": "passport",
+    "domain": "Authentication",
+    "description": "Simple, unobtrusive authentication for Node.js",
+    "npm_downloads": 5000000,
+    "last_release": "2023-05-30"
+  },
+  {
+    "name": "bcrypt",
+    "domain": "Encryption",
+    "description": "A library to help you hash passwords",
+    "npm_downloads": 6000000,
+    "last_release": "2023-04-15"
+  },
+  {
+    "name": "uuid",
+    "domain": "Utility",
+    "description": "RFC4122 (v1, v4, and v5) UUIDs",
+    "npm_downloads": 12000000,
+    "last_release": "2023-03-25"
+  },
+  {
+    "name": "sequelize",
+    "domain": "ORM",
+    "description": "Multi dialect ORM for Node.JS",
+    "npm_downloads": 4000000,
+    "last_release": "2023-05-15"
+  },
+  {
+    "name": "nodemon",
+    "domain": "Development",
+    "description": "Simple monitor script for use during development of a Node.js app",
+    "npm_downloads": 8000000,
+    "last_release": "2023-04-05"
+  },
+  {
+    "name": "pm2",
+    "domain": "Process Management",
+    "description": "Production process manager for Node.js apps with a built-in load balancer",
+    "npm_downloads": 3000000,
+    "last_release": "2023-06-10"
+  },
+  {
+    "name": "helmet",
+    "domain": "Security",
+    "description": "Help secure Express apps with various HTTP headers",
+    "npm_downloads": 5000000,
+    "last_release": "2023-05-01"
+  },
+  {
+    "name": "winston",
+    "domain": "Logging",
+    "description": "A logger for just about everything",
+    "npm_downloads": 4000000,
+    "last_release": "2023-03-30"
+  },
+  {
+    "name": "joi",
+    "domain": "Validation",
+    "description": "Object schema description language and validator for JavaScript objects",
+    "npm_downloads": 5000000,
+    "last_release": "2023-04-20"
+  },
+  {
+    "name": "jsonwebtoken",
+    "domain": "Authentication",
+    "description": "JSON Web Token implementation (symmetric and asymmetric)",
+    "npm_downloads": 7000000,
+    "last_release": "2023-05-25"
+  },
+  {
+    "name": "mocha",
+    "domain": "Testing",
+    "description": "Simple, flexible, fun JavaScript test framework for Node.js & The Browser",
+    "npm_downloads": 4000000,
+    "last_release": "2023-03-05"
+  },
+  {
+    "name": "bluebird",
+    "domain": "Promises",
+    "description": "Full featured Promises/A+ implementation with exceptionally good performance",
+    "npm_downloads": 6000000,
+    "last_release": "2023-02-10"
+  },
+  {
+    "name": "sharp",
+    "domain": "Image Processing",
+    "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP and TIFF images",
+    "npm_downloads": 3000000,
+    "last_release": "2023-05-20"
+  },
+  {
+    "name": "redis",
+    "domain": "Database",
+    "description": "Redis client library",
+    "npm_downloads": 4000000,
+    "last_release": "2023-04-10"
+  },
+  {
+    "name": "faker",
+    "domain": "Development",
+    "description": "Generate massive amounts of fake data in the browser and Node.js",
+    "npm_downloads": 5000000,
+    "last_release": "2023-03-15"
+  },
+  {
+    "name": "cheerio",
+    "domain": "Web Scraping",
+    "description": "Fast, flexible & lean implementation of core jQuery designed specifically for the server",
+    "npm_downloads": 4000000,
+    "last_release": "2023-06-05"
+  },
+  {
+    "name": "typeorm",
+    "domain": "ORM",
+    "description": "ORM for TypeScript and JavaScript",
+    "npm_downloads": 2000000,
+    "last_release": "2023-05-10"
+  },
+  {
+    "name": "gulp",
+    "domain": "Build Tool",
+    "description": "The streaming build system",
+    "npm_downloads": 3000000,
+    "last_release": "2023-04-15"
+  },
+  {
+    "name": "yargs",
+    "domain": "Command-line Interface",
+    "description": "Yargs the modern, pirate-themed, successor to optimist",
+    "npm_downloads": 6000000,
+    "last_release": "2023-03-20"
+  },
+  {
+    "name": "apollo-server",
+    "domain": "GraphQL",
+    "description": "Production-ready Node.js GraphQL server",
+    "npm_downloads": 2000000,
+    "last_release": "2023-05-30"
+  },
+  {
+    "name": "prettier",
+    "domain": "Code Formatting",
+    "description": "Prettier is an opinionated code formatter",
+    "npm_downloads": 7000000,
+    "last_release": "2023-04-25"
+  },
+  {
+    "name": "puppeteer",
+    "domain": "Browser Automation",
+    "description": "Headless Chrome Node.js API",
+    "npm_downloads": 3000000,
+    "last_release": "2023-06-10"
+  },
+  {
+    "name": "rimraf",
+    "domain": "Utility",
+    "description": "A deep deletion module for node",
+    "npm_downloads": 9000000,
+    "last_release": "2023-03-25"
+  },
+  {
+    "name": "swagger-ui-express",
+    "domain": "API Documentation",
+    "description": "Middleware to serve the Swagger UI bound to your Swagger document",
+    "npm_downloads": 2000000,
+    "last_release": "2023-05-05"
+  },
+  {
+    "name": "node-cron",
+    "domain": "Task Scheduling",
+    "description": "A simple cron-like task scheduler for Node.js",
+    "npm_downloads": 3000000,
+    "last_release": "2023-04-20"
+  },
+  {
+    "name": "cross-env",
+    "domain": "Development",
+    "description": "Run scripts that set and use environment variables across platforms",
+    "npm_downloads": 6000000,
+    "last_release": "2023-02-15"
+  },
+  {
+    "name": "validator",
+    "domain": "Validation",
+    "description": "String validation and sanitization",
+    "npm_downloads": 7000000,
+    "last_release": "2023-05-25"
+  },
+  {
+    "name": "multer",
+    "domain": "File Upload",
+    "description": "Node.js middleware for handling multipart/form-data",
+    "npm_downloads": 4000000,
+    "last_release": "2023-03-30"
+  },
+  {
+    "name": "nanoid",
+    "domain": "Utility",
+    "description": "A tiny (108 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
+    "npm_downloads": 8000000,
+    "last_release": "2023-04-10"
+  },
+  {
+    "name": "nodemailer",
+    "domain": "Email",
+    "description": "Easy as cake e-mail sending from your Node.js applications",
+    "npm_downloads": 3000000,
+    "last_release": "2023-06-05"
+  },
+  {
+    "name": "compression",
+    "domain": "Middleware",
+    "description": "Node.js compression middleware",
+    "npm_downloads": 5000000,
+    "last_release": "2023-05-15"
+  },
+  {
+    "name": "fastify",
+    "domain": "Web Framework",
+    "description": "Fast and low overhead web framework for Node.js",
+    "npm_downloads": 2000000,
+    "last_release": "2023-06-15"
+  },
+  {
+    "name": "pino",
+    "domain": "Logging",
+    "description": "Super fast, all natural JSON logger",
+    "npm_downloads": 3000000,
+    "last_release": "2023-06-20"
+  },
+  {
+    "name": "got",
+    "domain": "HTTP Client",
+    "description": "Human-friendly and powerful HTTP request library for Node.js",
+    "npm_downloads": 5000000,
+    "last_release": "2023-06-25"
+  },
+  {
+    "name": "knex",
+    "domain": "Database",
+    "description": "A query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use",
+    "npm_downloads": 2500000,
+    "last_release": "2023-07-01"
+  },
+  {
+    "name": "lowdb",
+    "domain": "Database",
+    "description": "Small JSON database for Node, Electron and the browser. Powered by Lodash.",
+    "npm_downloads": 1000000,
+    "last_release": "2023-07-05"
+  },
+  {
+    "name": "nock",
+    "domain": "Testing",
+    "description": "HTTP server mocking and expectations library for Node.js",
+    "npm_downloads": 2000000,
+    "last_release": "2023-07-10"
+  },
+  {
+    "name": "supertest",
+    "domain": "Testing",
+    "description": "Super-agent driven library for testing HTTP servers",
+    "npm_downloads": 3000000,
+    "last_release": "2023-07-15"
+  },
+  {
+    "name": "node-schedule",
+    "domain": "Task Scheduling",
+    "description": "A cron-like and not-cron-like job scheduler for Node.js",
+    "npm_downloads": 1500000,
+    "last_release": "2023-07-20"
+  },
+  {
+    "name": "ioredis",
+    "domain": "Database",
+    "description": "A robust, performance-focused and full-featured Redis client for Node.js",
+    "npm_downloads": 2000000,
+    "last_release": "2023-07-25"
+  },
+  {
+    "name": "bull",
+    "domain": "Task Queue",
+    "description": "Premium Queue package for handling distributed jobs and messages in NodeJS",
+    "npm_downloads": 1000000,
+    "last_release": "2023-07-30"
+  },
+  {
+    "name": "type-graphql",
+    "domain": "GraphQL",
+    "description": "Create GraphQL schema and resolvers with TypeScript, using classes and decorators!",
+    "npm_downloads": 500000,
+    "last_release": "2023-08-01"
+  },
+  {
+    "name": "moleculer",
+    "domain": "Microservices",
+    "description": "Progressive microservices framework for Node.js",
+    "npm_downloads": 200000,
+    "last_release": "2023-08-05"
+  },
+  {
+    "name": "nestjs",
+    "domain": "Web Framework",
+    "description": "A progressive Node.js framework for building efficient and scalable server-side applications",
+    "npm_downloads": 1500000,
+    "last_release": "2023-08-10"
+  },
+  {
+    "name": "dayjs",
+    "domain": "Date and Time",
+    "description": "Fast 2KB immutable date library alternative to Moment.js with the same modern API",
+    "npm_downloads": 4000000,
+    "last_release": "2023-08-15"
+  },
+  {
+    "name": "zod",
+    "domain": "Validation",
+    "description": "TypeScript-first schema validation with static type inference",
+    "npm_downloads": 3000000,
+    "last_release": "2023-08-20"
+  },
+  {
+    "name": "ava",
+    "domain": "Testing",
+    "description": "Node.js test runner that lets you develop with confidence",
+    "npm_downloads": 500000,
+    "last_release": "2023-08-25"
+  },
+  {
+    "name": "node-fetch",
+    "domain": "HTTP Client",
+    "description": "A light-weight module that brings window.fetch to Node.js",
+    "npm_downloads": 7000000,
+    "last_release": "2023-08-30"
+  },
+  {
+    "name": "jsonwebtoken",
+    "domain": "Authentication",
+    "description": "JSON Web Token implementation (symmetric and asymmetric)",
+    "npm_downloads": 6000000,
+    "last_release": "2023-09-01"
+  },
+  {
+    "name": "pg",
+    "domain": "Database",
+    "description": "Non-blocking PostgreSQL client for Node.js",
+    "npm_downloads": 4000000,
+    "last_release": "2023-09-05"
+  },
+  {
+    "name": "sqlite3",
+    "domain": "Database",
+    "description": "Asynchronous, non-blocking SQLite3 bindings for Node.js",
+    "npm_downloads": 2000000,
+    "last_release": "2023-09-10"
+  },
+  {
+    "name": "sharp",
+    "domain": "Image Processing",
+    "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP and TIFF images",
+    "npm_downloads": 3000000,
+    "last_release": "2023-09-15"
+  },
+  {
+    "name": "date-fns",
+    "domain": "Date and Time",
+    "description": "Modern JavaScript date utility library",
+    "npm_downloads": 5000000,
+    "last_release": "2023-09-20"
+  },
+  {
+    "name": "ejs",
+    "domain": "Templating",
+    "description": "Embedded JavaScript templates",
+    "npm_downloads": 3000000,
+    "last_release": "2023-09-25"
+  },
+  {
+    "name": "handlebars",
+    "domain": "Templating",
+    "description": "Handlebars provides the power necessary to let you build semantic templates effectively with no frustration",
+    "npm_downloads": 4000000,
+    "last_release": "2023-09-30"
+  },
+  {
+    "name": "objection",
+    "domain": "ORM",
+    "description": "An SQL-friendly ORM for Node.js",
+    "npm_downloads": 500000,
+    "last_release": "2023-10-01"
+  },
+  {
+    "name": "node-postgres",
+    "domain": "Database",
+    "description": "Non-blocking PostgreSQL client for Node.js",
+    "npm_downloads": 3000000,
+    "last_release": "2023-10-05"
+  },
+  {
+    "name": "nodemailer",
+    "domain": "Email",
+    "description": "Easy as cake e-mail sending from your Node.js applications",
+    "npm_downloads": 4000000,
+    "last_release": "2023-10-10"
+  },
+  {
+    "name": "node-cron",
+    "domain": "Task Scheduling",
+    "description": "A simple cron-like task scheduler for Node.js",
+    "npm_downloads": 2000000,
+    "last_release": "2023-10-15"
+  },
+  {
+    "name": "bcryptjs",
+    "domain": "Encryption",
+    "description": "Optimized bcrypt in JavaScript with zero dependencies",
+    "npm_downloads": 5000000,
+    "last_release": "2023-10-20"
+  },
+  {
+    "name": "jsonschema",
+    "domain": "Validation",
+    "description": "JSON Schema validation",
+    "npm_downloads": 1000000,
+    "last_release": "2023-10-25"
+  },
+  {
+    "name": "luxon",
+    "domain": "Date and Time",
+    "description": "A powerful, modern, and friendly wrapper for JavaScript dates and times",
+    "npm_downloads": 3000000,
+    "last_release": "2023-10-30"
+  },
+  {
+    "name": "node-cache",
+    "domain": "Caching",
+    "description": "Simple and fast NodeJS internal caching",
+    "npm_downloads": 2000000,
+    "last_release": "2023-11-01"
+  },
+  {
+    "name": "glob",
+    "domain": "File System",
+    "description": "a little globber",
+    "npm_downloads": 8000000,
+    "last_release": "2023-11-05"
+  },
+  {
+    "name": "csvtojson",
+    "domain": "Data Parsing",
+    "description": "A tool for converting CSV to JSON and vice versa",
+    "npm_downloads": 1000000,
+    "last_release": "2023-11-10"
+  },
+  {
+    "name": "crypto-js",
+    "domain": "Encryption",
+    "description": "JavaScript library of crypto standards",
+    "npm_downloads": 4000000,
+    "last_release": "2023-11-15"
+  },
+  {
+    "name": "joi",
+    "domain": "Validation",
+    "description": "Object schema description language and validator for JavaScript objects",
+    "npm_downloads": 5000000,
+    "last_release": "2023-11-20"
+  },
+  {
+    "name": "node-rsa",
+    "domain": "Encryption",
+    "description": "Node.js RSA library",
+    "npm_downloads": 1000000,
+    "last_release": "2023-11-25"
+  },
+  {
+    "name": "uuid",
+    "domain": "Utility",
+    "description": "RFC4122 (v1, v4, and v5) UUIDs",
+    "npm_downloads": 10000000,
+    "last_release": "2023-11-30"
+  },
+  {
+    "name": "jwt-simple",
+    "domain": "Authentication",
+    "description": "JWT(JSON Web Token) encode and decode module for node.js",
+    "npm_downloads": 1000000,
+    "last_release": "2023-12-01"
+  },
+  {
+    "name": "mongoose-paginate",
+    "domain": "Database",
+    "description": "Pagination plugin for Mongoose",
+    "npm_downloads": 500000,
+    "last_release": "2023-12-05"
+  },
+  {
+    "name": "http-errors",
+    "domain": "Error Handling",
+    "description": "Create HTTP error objects",
+    "npm_downloads": 7000000,
+    "last_release": "2023-12-10"
+  },
+  {
+    "name": "connect-mongo",
+    "domain": "Session Management",
+    "description": "MongoDB session store for Connect and Express",
+    "npm_downloads": 1000000,
+    "last_release": "2023-12-15"
+  },
+  {
+    "name": "node-sass",
+    "domain": "CSS Preprocessing",
+    "description": "Wrapper around libsass",
+    "npm_downloads": 3000000,
+    "last_release": "2023-12-20"
+  },
+  {
+    "name": "xml2js",
+    "domain": "Data Parsing",
+    "description": "Simple XML to JavaScript object converter",
+    "npm_downloads": 4000000,
+    "last_release": "2023-12-25"
+  },
+  {
+    "name": "cheerio",
+    "domain": "Web Scraping",
+    "description": "Tiny, fast, and elegant implementation of core jQuery designed specifically for the server",
+    "npm_downloads": 5000000,
+    "last_release": "2023-12-30"
+  },
+  {
+    "name": "puppeteer",
+    "domain": "Browser Automation",
+    "description": "Headless Chrome Node.js API",
+    "npm_downloads": 6000000,
+    "last_release": "2024-01-01"
+  },
+  {
+    "name": "xlsx",
+    "domain": "Spreadsheet Processing",
+    "description": "SheetJS Community Edition -- Spreadsheet Parser and Writer",
+    "npm_downloads": 3000000,
+    "last_release": "2024-01-05"
+  }
+]

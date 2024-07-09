@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Laravel",
+    "category": "Framework",
+    "description": "Popular PHP framework for web application development",
+    "github_stars": 70000,
+    "packagist_downloads": 100000000
+  },
+  {
+    "name": "Symfony",
+    "category": "Framework",
+    "description": "Set of reusable PHP components and a web application framework",
+    "github_stars": 27000,
+    "packagist_downloads": 90000000
+  },
+  {
+    "name": "CodeIgniter",
+    "category": "Framework",
+    "description": "Powerful PHP framework with a very small footprint",
+    "github_stars": 21000,
+    "packagist_downloads": 30000000
+  },
+  {
+    "name": "Guzzle",
+    "category": "HTTP Client",
+    "description": "PHP HTTP client that makes it easy to send HTTP requests",
+    "github_stars": 22000,
+    "packagist_downloads": 80000000
+  },
+  {
+    "name": "Doctrine",
+    "category": "ORM",
+    "description": "Object-Relational Mapper (ORM) for PHP",
+    "github_stars": 9000,
+    "packagist_downloads": 70000000
+  },
+  {
+    "name": "PHPUnit",
+    "category": "Testing",
+    "description": "Programmer-oriented testing framework for PHP",
+    "github_stars": 18000,
+    "packagist_downloads": 120000000
+  },
+  {
+    "name": "Composer",
+    "category": "Package Manager",
+    "description": "Dependency Manager for PHP",
+    "github_stars": 26000,
+    "packagist_downloads": 200000000
+  },
+  {
+    "name": "Eloquent ORM",
+    "category": "ORM",
+    "description": "ORM included with Laravel, can be used standalone",
+    "github_stars": 70000,
+    "packagist_downloads": 100000000
+  },
+  {
+    "name": "Twig",
+    "category": "Template Engine",
+    "description": "Flexible, fast, and secure template engine for PHP",
+    "github_stars": 7500,
+    "packagist_downloads": 80000000
+  },
+  {
+    "name": "Monolog",
+    "category": "Logging",
+    "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+    "github_stars": 19000,
+    "packagist_downloads": 150000000
+  },
+  {
+    "name": "Carbon",
+    "category": "Date and Time",
+    "description": "Simple PHP API extension for DateTime",
+    "github_stars": 15000,
+    "packagist_downloads": 90000000
+  },
+  {
+    "name": "Stripe PHP",
+    "category": "Payment",
+    "description": "PHP library for the Stripe API",
+    "github_stars": 3000,
+    "packagist_downloads": 50000000
+  },
+  {
+    "name": "Faker",
+    "category": "Testing",
+    "description": "PHP library that generates fake data for you",
+    "github_stars": 26000,
+    "packagist_downloads": 70000000
+  },
+  {
+    "name": "PHP-JWT",
+    "category": "Authentication",
+    "description": "JSON Web Token implementation for PHP",
+    "github_stars": 7000,
+    "packagist_downloads": 40000000
+  },
+  {
+    "name": "Flysystem",
+    "category": "File Storage",
+    "description": "Filesystem abstraction layer for PHP",
+    "github_stars": 12000,
+    "packagist_downloads": 60000000
+  },
+  {
+    "name": "SwiftMailer",
+    "category": "Email",
+    "description": "Free feature-rich PHP mailer",
+    "github_stars": 9000,
+    "packagist_downloads": 70000000
+  },
+  {
+    "name": "PHPMailer",
+    "category": "Email",
+    "description": "The classic email sending library for PHP",
+    "github_stars": 18000,
+    "packagist_downloads": 80000000
+  },
+  {
+    "name": "Intervention Image",
+    "category": "Image Processing",
+    "description": "PHP image handling and manipulation library",
+    "github_stars": 12000,
+    "packagist_downloads": 40000000
+  },
+  {
+    "name": "PHP Excel",
+    "category": "Spreadsheets",
+    "description": "Library for reading and writing spreadsheet files",
+    "github_stars": 11000,
+    "packagist_downloads": 50000000
+  },
+  {
+    "name": "DomPDF",
+    "category": "PDF Generation",
+    "description": "HTML to PDF converter",
+    "github_stars": 9000,
+    "packagist_downloads": 30000000
+  },
+  {
+    "name": "OAuth 2.0 Client",
+    "category": "Authentication",
+    "description": "Easy integration with OAuth 2.0 service providers",
+    "github_stars": 6500,
+    "packagist_downloads": 25000000
+  },
+  {
+    "name": "Goutte",
+    "category": "Web Scraping",
+    "description": "Web scraping and web crawling library for PHP",
+    "github_stars": 8500,
+    "packagist_downloads": 20000000
+  },
+  {
+    "name": "Predis",
+    "category": "Caching",
+    "description": "Flexible and feature-complete Redis client for PHP",
+    "github_stars": 7000,
+    "packagist_downloads": 40000000
+  },
+  {
+    "name": "Phinx",
+    "category": "Database Migrations",
+    "description": "Database migrations for PHP",
+    "github_stars": 4000,
+    "packagist_downloads": 30000000
+  },
+  {
+    "name": "Guzzle Promises",
+    "category": "Asynchronous",
+    "description": "Promises/A+ library for PHP with synchronous support",
+    "github_stars": 3000,
+    "packagist_downloads": 80000000
+  },
+  {
+    "name": "PHP-Parser",
+    "category": "Code Analysis",
+    "description": "A PHP parser written in PHP",
+    "github_stars": 15000,
+    "packagist_downloads": 60000000
+  },
+  {
+    "name": "Whoops",
+    "category": "Error Handling",
+    "description": "PHP errors for cool kids",
+    "github_stars": 12000,
+    "packagist_downloads": 70000000
+  },
+  {
+    "name": "Ramsey UUID",
+    "category": "Utility",
+    "description": "A PHP library for generating and working with UUIDs",
+    "github_stars": 4000,
+    "packagist_downloads": 90000000
+  },
+  {
+    "name": "Respect\\Validation",
+    "category": "Validation",
+    "description": "The most awesome validation engine ever created for PHP",
+    "github_stars": 7000,
+    "packagist_downloads": 40000000
+  },
+  {
+    "name": "PHP Debugbar",
+    "category": "Debugging",
+    "description": "Debug bar for PHP",
+    "github_stars": 5000,
+    "packagist_downloads": 20000000
+  },
+  {
+    "name": "Parsedown",
+    "category": "Markdown",
+    "description": "Better Markdown Parser in PHP",
+    "github_stars": 14000,
+    "packagist_downloads": 50000000
+  },
+  {
+    "name": "Omnipay",
+    "category": "Payment",
+    "description": "Multi-gateway payment processing library for PHP",
+    "github_stars": 3500,
+    "packagist_downloads": 15000000
+  },
+  {
+    "name": "PHP-ML",
+    "category": "Machine Learning",
+    "description": "Machine Learning library for PHP",
+    "github_stars": 9000,
+    "packagist_downloads": 5000000
+  },
+  {
+    "name": "Geocoder PHP",
+    "category": "Geolocation",
+    "description": "The most featured Geocoder library written in PHP",
+    "github_stars": 3000,
+    "packagist_downloads": 10000000
+  },
+  {
+    "name": "PHP CS Fixer",
+    "category": "Code Style",
+    "description": "A tool to automatically fix PHP Coding Standards issues",
+    "github_stars": 11000,
+    "packagist_downloads": 70000000
+  },
+  {
+    "name": "Guzzle HTTP",
+    "category": "HTTP Client",
+    "description": "Guzzle, an extensible PHP HTTP client",
+    "github_stars": 22000,
+    "packagist_downloads": 80000000
+  },
+  {
+    "name": "PHP Unit",
+    "category": "Testing",
+    "description": "The PHP Unit Testing framework",
+    "github_stars": 18000,
+    "packagist_downloads": 120000000
+  },
+  {
+    "name": "Psr7",
+    "category": "HTTP",
+    "description": "PSR-7 HTTP message library",
+    "github_stars": 7000,
+    "packagist_downloads": 150000000
+  },
+  {
+    "name": "Symfony Console",
+    "category": "Console",
+    "description": "Symfony Console Component",
+    "github_stars": 27000,
+    "packagist_downloads": 120000000
+  },
+  {
+    "name": "Pest",
+    "category": "Testing",
+    "description": "An elegant PHP Testing Framework",
+    "github_stars": 7000,
+    "packagist_downloads": 5000000
+  },
+  {
+    "name": "Fractal",
+    "category": "API",
+    "description": "Output complex, flexible, AJAX/RESTful data structures",
+    "github_stars": 6000,
+    "packagist_downloads": 20000000
+  },
+  {
+    "name": "PHP-DI",
+    "category": "Dependency Injection",
+    "description": "The dependency injection container for humans",
+    "github_stars": 4000,
+    "packagist_downloads": 30000000
+  },
+  {
+    "name": "Grav",
+    "category": "CMS",
+    "description": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS",
+    "github_stars": 13000,
+    "packagist_downloads": 2000000
+  },
+  {
+    "name": "Slim",
+    "category": "Microframework",
+    "description": "PHP micro framework that helps you quickly write simple yet powerful web applications and APIs",
+    "github_stars": 11000,
+    "packagist_downloads": 30000000
+  },
+  {
+    "name": "Yii2",
+    "category": "Framework",
+    "description": "Fast, secure and efficient PHP framework",
+    "github_stars": 14000,
+    "packagist_downloads": 20000000
+  },
+  {
+    "name": "CakePHP",
+    "category": "Framework",
+    "description": "Rapid Development Framework for PHP",
+    "github_stars": 8500,
+    "packagist_downloads": 15000000
+  },
+  {
+    "name": "Zend Framework",
+    "category": "Framework",
+    "description": "Professional PHP Framework",
+    "github_stars": 7000,
+    "packagist_downloads": 10000000
+  },
+  {
+    "name": "Mockery",
+    "category": "Testing",
+    "description": "Simple yet flexible PHP mock object framework",
+    "github_stars": 10000,
+    "packagist_downloads": 60000000
+  },
+  {
+    "name": "Spatie Laravel Permissions",
+    "category": "Authorization",
+    "description": "Associate users with roles and permissions",
+    "github_stars": 11000,
+    "packagist_downloads": 25000000
+  },
+  {
+    "name": "Phalcon",
+    "category": "Framework",
+    "description": "High performance PHP framework",
+    "github_stars": 10000,
+    "packagist_downloads": 5000000
+  },
+  {
+    "name": "FastRoute",
+    "category": "Routing",
+    "description": "Fast request router for PHP",
+    "github_stars": 5000,
+    "packagist_downloads": 70000000
+  },
+  {
+    "name": "PHP Coding Standards Fixer",
+    "category": "Code Style",
+    "description": "A tool to automatically fix PHP coding standards issues",
+    "github_stars": 11000,
+    "packagist_downloads": 70000000
+  },
+  {
+    "name": "Imagine",
+    "category": "Image Processing",
+    "description": "PHP 5.3 Object Oriented image manipulation library",
+    "github_stars": 4000,
+    "packagist_downloads": 20000000
+  },
+  {
+    "name": "Doctrine DBAL",
+    "category": "Database",
+    "description": "Powerful database abstraction layer with many features for database schema introspection and management",
+    "github_stars": 9000,
+    "packagist_downloads": 70000000
+  },
+  {
+    "name": "Passport",
+    "category": "Authentication",
+    "description": "Laravel Passport provides OAuth2 server implementation for Laravel",
+    "github_stars": 11000,
+    "packagist_downloads": 20000000
+  },
+  {
+    "name": "Psy Shell",
+    "category": "Development",
+    "description": "A runtime developer console, interactive debugger and REPL for PHP",
+    "github_stars": 9000,
+    "packagist_downloads": 70000000
+  },
+  {
+    "name": "Behat",
+    "category": "Testing",
+    "description": "BDD framework for PHP",
+    "github_stars": 3500,
+    "packagist_downloads": 20000000
+  },
+  {
+    "name": "Breeze",
+    "category": "Authentication",
+    "description": "Minimal Laravel authentication package",
+    "github_stars": 2000,
+    "packagist_downloads": 5000000
+  },
+  {
+    "name": "Sanctum",
+    "category": "Authentication",
+    "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs",
+    "github_stars": 3000,
+    "packagist_downloads": 15000000
+  },
+  {
+    "name": "Lumen",
+    "category": "Microframework",
+    "description": "The stunningly fast micro-framework by Laravel",
+    "github_stars": 7000,
+    "packagist_downloads": 10000000
+  }
+]

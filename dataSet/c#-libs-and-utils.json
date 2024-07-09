@@ -1,0 +1,401 @@
+[
+  {
+    "name": "Newtonsoft.Json",
+    "description": "Popular high-performance JSON framework for .NET",
+    "category": "Data Processing",
+    "nuget_downloads": 1000000000,
+    "github_stars": 9000
+  },
+  {
+    "name": "AutoMapper",
+    "description": "A convention-based object-object mapper",
+    "category": "Mapping",
+    "nuget_downloads": 100000000,
+    "github_stars": 8000
+  },
+  {
+    "name": "Dapper",
+    "description": "Simple object mapper for .NET",
+    "category": "ORM",
+    "nuget_downloads": 80000000,
+    "github_stars": 14000
+  },
+  {
+    "name": "Entity Framework Core",
+    "description": "Modern object-database mapper for .NET",
+    "category": "ORM",
+    "nuget_downloads": 200000000,
+    "github_stars": 11000
+  },
+  {
+    "name": "Serilog",
+    "description": "Simple .NET logging with fully-structured events",
+    "category": "Logging",
+    "nuget_downloads": 90000000,
+    "github_stars": 5000
+  },
+  {
+    "name": "FluentValidation",
+    "description": "A popular .NET validation library for building strongly-typed validation rules",
+    "category": "Validation",
+    "nuget_downloads": 70000000,
+    "github_stars": 7000
+  },
+  {
+    "name": "Polly",
+    "description": "Resilience and transient-fault-handling library",
+    "category": "Resilience",
+    "nuget_downloads": 60000000,
+    "github_stars": 10000
+  },
+  {
+    "name": "RestSharp",
+    "description": "Simple REST and HTTP API Client",
+    "category": "HTTP Client",
+    "nuget_downloads": 80000000,
+    "github_stars": 8000
+  },
+  {
+    "name": "Hangfire",
+    "description": "An easy way to perform background job processing in .NET applications",
+    "category": "Background Jobs",
+    "nuget_downloads": 30000000,
+    "github_stars": 7000
+  },
+  {
+    "name": "MediatR",
+    "description": "Simple, unambitious mediator implementation in .NET",
+    "category": "Messaging",
+    "nuget_downloads": 40000000,
+    "github_stars": 6000
+  },
+  {
+    "name": "Swashbuckle.AspNetCore",
+    "description": "Swagger tools for documenting API's built on ASP.NET Core",
+    "category": "API Documentation",
+    "nuget_downloads": 70000000,
+    "github_stars": 4000
+  },
+  {
+    "name": "IdentityServer4",
+    "description": "OpenID Connect and OAuth 2.0 Framework for ASP.NET Core",
+    "category": "Authentication",
+    "nuget_downloads": 20000000,
+    "github_stars": 7000
+  },
+  {
+    "name": "NLog",
+    "description": "Flexible & free open-source logging for .NET",
+    "category": "Logging",
+    "nuget_downloads": 100000000,
+    "github_stars": 5000
+  },
+  {
+    "name": "xUnit.net",
+    "description": "Free, open source, community-focused unit testing tool for the .NET Framework",
+    "category": "Testing",
+    "nuget_downloads": 150000000,
+    "github_stars": 4000
+  },
+  {
+    "name": "Moq",
+    "description": "The most popular and friendly mocking library for .NET",
+    "category": "Testing",
+    "nuget_downloads": 80000000,
+    "github_stars": 4000
+  },
+  {
+    "name": "Bogus",
+    "description": "A simple and sane fake data generator for C#",
+    "category": "Testing",
+    "nuget_downloads": 30000000,
+    "github_stars": 5000
+  },
+  {
+    "name": "Fluent Assertions",
+    "description": "A very extensive set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit test",
+    "category": "Testing",
+    "nuget_downloads": 60000000,
+    "github_stars": 3000
+  },
+  {
+    "name": "AutoFixture",
+    "description": "AutoFixture makes it easier for developers to do Test-Driven Development by automating non-relevant Test Fixture Setup",
+    "category": "Testing",
+    "nuget_downloads": 30000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "BenchmarkDotNet",
+    "description": "Powerful .NET library for benchmarking",
+    "category": "Performance",
+    "nuget_downloads": 20000000,
+    "github_stars": 7000
+  },
+  {
+    "name": "CsvHelper",
+    "description": "A library for reading and writing CSV files",
+    "category": "Data Processing",
+    "nuget_downloads": 50000000,
+    "github_stars": 3000
+  },
+  {
+    "name": "Humanizer",
+    "description": "Manipulation and displaying of strings, enums, dates, times, timespans, numbers and quantities",
+    "category": "String Manipulation",
+    "nuget_downloads": 60000000,
+    "github_stars": 7000
+  },
+  {
+    "name": "ClosedXML",
+    "description": "ClosedXML makes it easier for developers to create Excel files",
+    "category": "Excel",
+    "nuget_downloads": 30000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "Quartz.NET",
+    "description": "Open source job scheduling system for .NET",
+    "category": "Scheduling",
+    "nuget_downloads": 20000000,
+    "github_stars": 4000
+  },
+  {
+    "name": "FluentMigrator",
+    "description": "Fluent Migrations framework for .NET",
+    "category": "Database",
+    "nuget_downloads": 10000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "NSubstitute",
+    "description": "A friendly substitute for .NET mocking libraries",
+    "category": "Testing",
+    "nuget_downloads": 40000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "SignalR",
+    "description": "Real-time web functionality for ASP.NET",
+    "category": "Real-time",
+    "nuget_downloads": 30000000,
+    "github_stars": 8000
+  },
+  {
+    "name": "Refit",
+    "description": "The automatic type-safe REST library for .NET Core, Xamarin and .NET",
+    "category": "HTTP Client",
+    "nuget_downloads": 15000000,
+    "github_stars": 5000
+  },
+  {
+    "name": "FluentEmail",
+    "description": "All in one email sender for .NET",
+    "category": "Email",
+    "nuget_downloads": 5000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "MimeKit",
+    "description": "A cross-platform .NET MIME creation and parser library with support for S/MIME, PGP, DKIM, TNEF and Unix mbox spools",
+    "category": "Email",
+    "nuget_downloads": 40000000,
+    "github_stars": 1000
+  },
+  {
+    "name": "EPPlus",
+    "description": "Excel spreadsheets generation for .NET",
+    "category": "Excel",
+    "nuget_downloads": 40000000,
+    "github_stars": 3000
+  },
+  {
+    "name": "Scrutor",
+    "description": "Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection",
+    "category": "Dependency Injection",
+    "nuget_downloads": 20000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "Mapster",
+    "description": "A fast, fun and stimulating object to object mapper",
+    "category": "Mapping",
+    "nuget_downloads": 10000000,
+    "github_stars": 3000
+  },
+  {
+    "name": "Flurl",
+    "description": "Fluent URL builder and testable HTTP client for .NET",
+    "category": "HTTP Client",
+    "nuget_downloads": 20000000,
+    "github_stars": 3000
+  },
+  {
+    "name": "SimpleInjector",
+    "description": "Simple Injector is an easy-to-use Dependency Injection (DI) library for .NET",
+    "category": "Dependency Injection",
+    "nuget_downloads": 30000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "NodaTime",
+    "description": "A better date and time API for .NET",
+    "category": "Date and Time",
+    "nuget_downloads": 20000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "SharpZipLib",
+    "description": "A Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform",
+    "category": "Compression",
+    "nuget_downloads": 50000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "iTextSharp",
+    "description": "A library to create and manipulate PDF documents in C#",
+    "category": "PDF",
+    "nuget_downloads": 30000000,
+    "github_stars": 1000
+  },
+  {
+    "name": "Autofac",
+    "description": "An addictive .NET IoC container",
+    "category": "Dependency Injection",
+    "nuget_downloads": 80000000,
+    "github_stars": 4000
+  },
+  {
+    "name": "StackExchange.Redis",
+    "description": "High performance Redis client for .NET languages",
+    "category": "Caching",
+    "nuget_downloads": 60000000,
+    "github_stars": 5000
+  },
+  {
+    "name": "LiteDB",
+    "description": "A .NET NoSQL Document Store in a single data file",
+    "category": "Database",
+    "nuget_downloads": 10000000,
+    "github_stars": 6000
+  },
+  {
+    "name": "NJsonSchema",
+    "description": "JSON Schema reader, generator and validator for .NET",
+    "category": "JSON",
+    "nuget_downloads": 30000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "YamlDotNet",
+    "description": "YAML parser and serializer for .NET",
+    "category": "Data Serialization",
+    "nuget_downloads": 70000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "MassTransit",
+    "description": "Distributed Application Framework for .NET",
+    "category": "Messaging",
+    "nuget_downloads": 10000000,
+    "github_stars": 4000
+  },
+  {
+    "name": "NCrontab",
+    "description": "Crontab for .NET",
+    "category": "Scheduling",
+    "nuget_downloads": 10000000,
+    "github_stars": 1000
+  },
+  {
+    "name": "NPoco",
+    "description": "Simple microORM that maps the results of a query onto a POCO object",
+    "category": "ORM",
+    "nuget_downloads": 5000000,
+    "github_stars": 1000
+  },
+  {
+    "name": "Elasticsearch.Net",
+    "description": "Official low-level Elasticsearch client for .NET",
+    "category": "Search",
+    "nuget_downloads": 40000000,
+    "github_stars": 3000
+  },
+  {
+    "name": "NEST",
+    "description": "Official high-level Elasticsearch client for .NET",
+    "category": "Search",
+    "nuget_downloads": 20000000,
+    "github_stars": 3000
+  },
+  {
+    "name": "Nancy",
+    "description": "Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono",
+    "category": "Web Framework",
+    "nuget_downloads": 10000000,
+    "github_stars": 7000
+  },
+  {
+    "name": "Akka.NET",
+    "description": "Port of Akka actors for .NET",
+    "category": "Actor Model",
+    "nuget_downloads": 5000000,
+    "github_stars": 4000
+  },
+  {
+    "name": "Topshelf",
+    "description": "An easy service hosting framework for building Windows services using .NET",
+    "category": "Windows Services",
+    "nuget_downloads": 10000000,
+    "github_stars": 3000
+  },
+  {
+    "name": "Ninject",
+    "description": "The ninja of .net dependency injectors",
+    "category": "Dependency Injection",
+    "nuget_downloads": 40000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "NServiceBus",
+    "description": "The most popular service bus for .NET",
+    "category": "Messaging",
+    "nuget_downloads": 10000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "RabbitMQ.Client",
+    "description": "The RabbitMQ .NET client",
+    "category": "Messaging",
+    "nuget_downloads": 40000000,
+    "github_stars": 1000
+  },
+  {
+    "name": "FluentScheduler",
+    "description": "Automated job scheduler with fluent interface for the .NET platform",
+    "category": "Scheduling",
+    "nuget_downloads": 2000000,
+    "github_stars": 2000
+  },
+  {
+    "name": "HtmlAgilityPack",
+    "description": "An agile HTML parser that builds a read/write DOM and supports plain XPATH or XSLT",
+    "category": "HTML Parsing",
+    "nuget_downloads": 70000000,
+    "github_stars": 3000
+  },
+  {
+    "name": "Ocelot",
+    "description": ".NET core API Gateway",
+    "category": "API Gateway",
+    "nuget_downloads": 10000000,
+    "github_stars": 6000
+  },
+  {
+    "name": "Rebus",
+    "description": "Simple and lean service bus implementation for .NET",
+    "category": "Messaging",
+    "nuget_downloads": 2000000,
+    "github_stars": 2000
+  }
+]
