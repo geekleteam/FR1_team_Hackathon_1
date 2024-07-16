@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+html .react-flow__node-group {
+  background-color: initial;
+}
+
+html .react-flow__node-group {
+  padding: 0px;
+  border-radius: var(--xy-node-border-radius, var(--xy-node-border-radius-default));
+  width: 150px;
+  font-size: 10px;
+  color: var(--xy-node-color, var(--xy-node-color-default));
+  text-align: left;
+  border: var(--xy-node-border, var(--xy-node-border-default));
+  background-color: initial;
+}

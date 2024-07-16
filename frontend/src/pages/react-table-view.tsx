@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Check, X, ChevronDown, ChevronUp } from 'lucide-react';
+import { Check, X, ChevronDown, ChevronUp, Info } from 'lucide-react';
 
 const TableScreen = () => {
   const [activeTab, setActiveTab] = useState('Fast');
   const [summaryExpanded, setSummaryExpanded] = useState(false);
+  const [spoilerVisible, setSpoilerVisible] = useState(false);
 
   const tablesData = {
     "Fast": [
@@ -30,9 +31,15 @@ const TableScreen = () => {
   };
 
   const summaries = {
-    "Fast": "This tech stack prioritizes speed and performance. With Node.js and Express.js on the backend, you get lightning-fast request handling and non-blocking I/O. MongoDB provides quick read/write operations for data storage. On the frontend, React and Next.js offer optimal rendering performance and quick load times. This stack is ideal for applications where speed is crucial, such as real-time applications or high-traffic websites.",
-    "Cheap": "This stack focuses on cost-effectiveness without sacrificing too much functionality. Python and Flask provide a lightweight backend that's quick to develop. SQLite offers a zero-configuration database that's perfect for small to medium-sized applications. Vue.js on the frontend is easy to learn and efficient. Netlify for hosting provides a generous free tier and easy deployment. This stack is perfect for startups, MVPs, or projects with tight budgets.",
-    "Secure": "This tech stack emphasizes security and robustness. Java and Spring Boot offer strong typing and comprehensive security features. PostgreSQL is known for its data integrity and complex query support. Angular provides built-in protections against common web vulnerabilities. AWS offers a wide range of security services and compliance certifications. While this stack has a steeper learning curve, it's ideal for applications dealing with sensitive data or requiring high levels of security."
+    "Fast": "This tech stack prioritizes speed and performance. With Node.js and Express.js on the backend, you get lightning-fast request handling and non-blocking I/O. MongoDB provides quick read/write operations for data storage.",
+    "Cheap": "This stack focuses on cost-effectiveness without sacrificing too much functionality. Python and Flask provide a lightweight backend that's quick to develop. SQLite offers a zero-configuration database that's perfect for small to medium-sized applications.",
+    "Secure": "This tech stack aligns closely with the one you've described, particularly in the use of Java, PostgreSQL, Angular, and AWS. It's a robust combination that offers high performance, scalability, and a large ecosystem, which are critical for a fintech startup handling real-time financial transactions and data.",
+  };
+  
+  const startupComparisons = {
+    "Fast": "Netflix initially used a similar stack for their API architecture.",
+    "Cheap": "Instagram's initial MVP was built using a similar Python-based stack.",
+    "Secure": "Robinhood, the popular stock trading app, initially used a tech stack similar to the one described. Their early stack included Java for backend, PostgreSQL for database, Angular for frontend, and AWS for cloud infrastructure. They likely used Spring Boot as well. This combination provided high performance, scalability, and a large ecosystem - crucial for a fintech startup."
   };
 
   const tabs = [
@@ -93,6 +100,20 @@ const TableScreen = () => {
           <p className="text-gray-700 mt-2">{summaries[activeTab]}</p>
         )}
       </div>
+
+      <div className="bg-green-50 p-4 rounded-lg" style={{marginTop: "1rem"}}>
+        <div className="flex justify-between items-center cursor-pointer" onClick={() => setSpoilerVisible(!spoilerVisible)}>
+          <h3 className="text-xl font-semibold flex items-center">
+            <Info size={24} className="mr-2" />
+            Startup Comparison
+          </h3>
+          {spoilerVisible ? <ChevronUp size={24} /> : <ChevronDown size={24} />}
+        </div>
+        {spoilerVisible && (
+          <p className="text-gray-700 mt-2">{startupComparisons[activeTab]}</p>
+        )}
+      </div>
+
     </div>
   );
 };

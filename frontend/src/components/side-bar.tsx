@@ -1,32 +1,58 @@
 import React from 'react';
+import { CircleX } from 'lucide-react';
+
+interface SidebarProps {
+  isBelow1025: boolean;
+  activeSidebar: boolean;
+  handleSidebar: any;
+}
 
 import { Link } from 'react-router-dom';
-const UserSVG = () => (
-    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="24" cy="24" r="24" fill="#4B5563" />
-        <path d="M24 25C28.4183 25 32 21.4183 32 17C32 12.5817 28.4183 9 24 9C19.5817 9 16 12.5817 16 17C16 21.4183 19.5817 25 24 25Z" fill="#E5E7EB" />
-        <path d="M36 39C36 32.3726 30.6274 27 24 27C17.3726 27 12 32.3726 12 39" stroke="#E5E7EB" strokeWidth="4" strokeLinecap="round" />
-    </svg>
-);
-function Sidebar() {
-    return (
-        <div className="fixed top-0 left-0 h-screen w-64 bg-gray-800 text-white">
-            <div className="p-4 flex items-center space-x-4">
-                <UserSVG />
-                <div>
-                    <h2 className="font-semibold">David Williams</h2>
-                    <p className="text-sm text-gray-400">Product Owner</p>
-                </div>
-            </div>
-            <nav role="navigation">
-                <ul className="list-none p-0 mt-10">
-                    <li className="mb-4"><Link to="/">Chat</Link></li>
-                    <li className="mb-4"><Link to="/table">Comparision</Link></li>
-                </ul>
-            </nav>
-        </div>
 
-    );
-}
+const Sidebar: React.FC<SidebarProps> = ({ isBelow1025, activeSidebar, handleSidebar }) => {
+  return (
+    <>
+      <div
+        className={`${isBelow1025 ? ` fixed ` : ` sticky `} z-[9] overflow-hidden top-0 w-[230px] pl-4 flex flex-col gap-6 bg-bg-dark text-white transition-all duration-[0.3s] ease-in-out overflow-y-auto border-r-[1px]
+        ${activeSidebar ? 'w-auto min-w-[230px] min-h-screen h-fit max-h-screen ' : 'w-0 h-0'}
+        `}
+      >
+        <div className="relative min-w-[225px] h-auto">
+          {isBelow1025 && (
+            <CircleX
+              onClick={handleSidebar}
+              className="text-xl absolute top-3 right-6  text-secondary-pink hover:text-secondary-purple cursor-pointer"
+            />
+          )}
+        </div>
+        {activeSidebar && <img className="w-[160px] h-[60px]" src={`/logo.png`} />}
+        <nav role="navigation" className="w-[60%] ">
+          {activeSidebar && (
+            <>
+              <ul className="list-none p-1">
+                {/* <li className="mb-4"><Link to="/dashboard">Chatbot</Link></li> */}
+                <Link to="/dashboard">
+                  <li className="mb-4 text-secondary-pink border-[1px] hover:bg-secondary-pink hover:text-white border-secondary-pink rounded-md p-1">
+                    Create New
+                  </li>
+                </Link>
+                <li className="mb-4 hover:text-secondary-pink  cursor-pointer  rounded-md p-1">
+                  <input type="file" />
+                </li>
+                {/* <li className="mb-4"><Link to="/dashboard/table">Comparision</Link></li> */}
+                {/* <li className="mb-4"><Link to="/dashboard/chatbot">Chat</Link></li> */}
+              </ul>
+              <ul>
+                <li className="mb-4 text-secondary-pink underline hover:text-white rounded-md p-1">
+                  <Link to="/dashboard">Download File</Link>
+                </li>
+              </ul>
+            </>
+          )}
+        </nav>
+      </div>
+    </>
+  );
+};
 
 export default Sidebar;
