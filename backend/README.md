@@ -1,4 +1,4 @@
-# Django Project Setup Guide
+# Flask Project Setup Guide
 
 This guide will help you get your Django project up and running on your local development environment.
 
@@ -44,18 +44,18 @@ pip install -r requirements.txt
 
 Apply the database migrations to set up your database schema:
 ```
-python manage.py migrate
+python create_db.py
 ```
 
 ## Setting up environment variable
 This project need an environment variable configured before it is able to run
 
-follow `.env.copy` file as the environment template and fill the necessary credentials and save the new file as `.env`
+follow `.env.example` file as the environment template and fill the necessary credentials and save the new file as `.env`
 
 ## Running the project
 Start the Django development server:
 ```
-python manage.py runserver
+python app.py
 ```
 
 ## Features and Interface

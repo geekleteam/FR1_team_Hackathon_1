@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "id": "smartHub",
+      "type": "service",
+      "position": { "x": 0, "y": 0 },
+      "data": { "icon": "🏠", "label": "Smart Home Hub" }
+    },
+    {
+      "id": "mobileApp",
+      "type": "service",
+      "position": { "x": -160, "y": 50 },
+      "data": { "icon": "📱", "label": "Mobile App" }
+    },
+    {
+      "id": "voiceAssistant",
+      "type": "service",
+      "position": { "x": 160, "y": 50 },
+      "data": { "icon": "🎙️", "label": "Voice Assistant" }
+    },
+    {
+      "id": "cloudServices",
+      "type": "service",
+      "position": { "x": 0, "y": 100 },
+      "data": { "icon": "☁️", "label": "Cloud Services" }
+    },
+    {
+      "id": "securitySystem",
+      "type": "service",
+      "position": { "x": -320, "y": 150 },
+      "data": { "icon": "🔒", "label": "Security System" }
+    },
+    {
+      "id": "lightingControl",
+      "type": "service",
+      "position": { "x": -160, "y": 150 },
+      "data": { "icon": "💡", "label": "Lighting Control" }
+    },
+    {
+      "id": "thermostat",
+      "type": "service",
+      "position": { "x": 0, "y": 150 },
+      "data": { "icon": "🌡️", "label": "Smart Thermostat" }
+    },
+    {
+      "id": "doorLocks",
+      "type": "service",
+      "position": { "x": 160, "y": 150 },
+      "data": { "icon": "🔐", "label": "Smart Door Locks" }
+    },
+    {
+      "id": "cameras",
+      "type": "service",
+      "position": { "x": 320, "y": 150 },
+      "data": { "icon": "📹", "label": "Security Cameras" }
+    },
+    {
+      "id": "energyMonitor",
+      "type": "service",
+      "position": { "x": -160, "y": 200 },
+      "data": { "icon": "⚡", "label": "Energy Monitor" }
+    },
+    {
+      "id": "irrigation",
+      "type": "service",
+      "position": { "x": 0, "y": 200 },
+      "data": { "icon": "💦", "label": "Smart Irrigation" }
+    },
+    {
+      "id": "entertainment",
+      "type": "service",
+      "position": { "x": 160, "y": 200 },
+      "data": { "icon": "🎭", "label": "Entertainment System" }
+    },
+    {
+      "id": "aiProcessor",
+      "type": "service",
+      "position": { "x": 0, "y": 250 },
+      "data": { "icon": "🧠", "label": "AI Processor" }
+    }
+  ],
+  "edges": [
+    {
+      "id": "mobileApp->smartHub",
+      "source": "mobileApp",
+      "target": "smartHub"
+    },
+    {
+      "id": "voiceAssistant->smartHub",
+      "source": "voiceAssistant",
+      "target": "smartHub"
+    },
+    {
+      "id": "smartHub->cloudServices",
+      "source": "smartHub",
+      "target": "cloudServices"
+    },
+    {
+      "id": "smartHub->securitySystem",
+      "source": "smartHub",
+      "target": "securitySystem"
+    },
+    {
+      "id": "smartHub->lightingControl",
+      "source": "smartHub",
+      "target": "lightingControl"
+    },
+    {
+      "id": "smartHub->thermostat",
+      "source": "smartHub",
+      "target": "thermostat"
+    },
+    {
+      "id": "smartHub->doorLocks",
+      "source": "smartHub",
+      "target": "doorLocks"
+    },
+    { "id": "smartHub->cameras", "source": "smartHub", "target": "cameras" },
+    {
+      "id": "smartHub->energyMonitor",
+      "source": "smartHub",
+      "target": "energyMonitor"
+    },
+    {
+      "id": "smartHub->irrigation",
+      "source": "smartHub",
+      "target": "irrigation"
+    },
+    {
+      "id": "smartHub->entertainment",
+      "source": "smartHub",
+      "target": "entertainment"
+    },
+    {
+      "id": "cloudServices->aiProcessor",
+      "source": "cloudServices",
+      "target": "aiProcessor"
+    },
+    {
+      "id": "aiProcessor->smartHub",
+      "source": "aiProcessor",
+      "target": "smartHub"
+    }
+  ]
+}

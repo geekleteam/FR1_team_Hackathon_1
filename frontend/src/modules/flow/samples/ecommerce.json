@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "aws-hosted",
+      "type": "group",
+      "position": {
+        "x": -20,
+        "y": -60
+      },
+      "data": {
+        "label": "Hosted in AWS",
+        "color": "red"
+      },
+      "style": {
+        "width": 150,
+        "height": 330
+      }
+    },
+    {
+      "id": "loadBalancer",
+      "type": "service",
+      "position": { "x": 30, "y": 30 },
+      "data": { "icon": "⚖️", "label": "Load Balancer" },
+      "parentId": "aws-hosted"
+    },
+    {
+      "id": "webApp",
+      "type": "service",
+      "position": { "x": 20, "y": 140 },
+      "data": { "icon": "🖥️", "label": "Web Application" },
+      "parentId": "aws-hosted"
+    },
+    {
+      "id": "apiGateway",
+      "type": "service",
+      "position": { "x": 30, "y": 250 },
+      "data": { "icon": "🚪", "label": "API Gateway" },
+      "parentId": "aws-hosted"
+    },
+    {
+      "id": "authService",
+      "type": "service",
+      "position": { "x": 120, "y": 300 },
+      "data": { "icon": "🔐", "label": "Auth Service" }
+    },
+    {
+      "id": "productService",
+      "type": "service",
+      "position": { "x": 0, "y": 300 },
+      "data": { "icon": "📦", "label": "Product Service" }
+    },
+    {
+      "id": "orderService",
+      "type": "service",
+      "position": { "x": 240, "y": 300 },
+      "data": { "icon": "🛒", "label": "Order Service" }
+    },
+    {
+      "id": "paymentService",
+      "type": "service",
+      "position": { "x": 360, "y": 300 },
+      "data": { "icon": "💳", "label": "Payment Service" }
+    },
+    {
+      "id": "tenantService",
+      "type": "service",
+      "position": { "x": 480, "y": 300 },
+      "data": { "icon": "🏢", "label": "Tenant Service" }
+    },
+    {
+      "id": "cacheLayer",
+      "type": "service",
+      "position": { "x": 120, "y": 400 },
+      "data": { "icon": "⚡", "label": "Cache Layer" }
+    },
+    {
+      "id": "mainDatabase",
+      "type": "service",
+      "position": { "x": 240, "y": 400 },
+      "data": { "icon": "🗄️", "label": "Main Database" }
+    },
+    {
+      "id": "searchEngine",
+      "type": "service",
+      "position": { "x": 360, "y": 400 },
+      "data": { "icon": "🔍", "label": "Search Engine" }
+    },
+    {
+      "id": "messageQueue",
+      "type": "service",
+      "position": { "x": 0, "y": 400 },
+      "data": { "icon": "📨", "label": "Message Queue" }
+    },
+    {
+      "id": "cdn",
+      "type": "service",
+      "position": { "x": 480, "y": 0 },
+      "data": { "icon": "🌐", "label": "CDN" }
+    }
+  ],
+  "edges": [
+    {
+      "id": "loadBalancer->webApp",
+      "source": "loadBalancer",
+      "target": "webApp"
+    },
+    { "id": "loadBalancer->cdn", "source": "loadBalancer", "target": "cdn" },
+    { "id": "webApp->apiGateway", "source": "webApp", "target": "apiGateway" },
+    {
+      "id": "apiGateway->authService",
+      "source": "apiGateway",
+      "target": "authService"
+    },
+    {
+      "id": "apiGateway->productService",
+      "source": "apiGateway",
+      "target": "productService"
+    },
+    {
+      "id": "apiGateway->orderService",
+      "source": "apiGateway",
+      "target": "orderService"
+    },
+    {
+      "id": "apiGateway->paymentService",
+      "source": "apiGateway",
+      "target": "paymentService"
+    },
+    {
+      "id": "apiGateway->tenantService",
+      "source": "apiGateway",
+      "target": "tenantService"
+    },
+    {
+      "id": "authService->mainDatabase",
+      "source": "authService",
+      "target": "mainDatabase"
+    },
+    {
+      "id": "productService->mainDatabase",
+      "source": "productService",
+      "target": "mainDatabase"
+    },
+    {
+      "id": "orderService->mainDatabase",
+      "source": "orderService",
+      "target": "mainDatabase"
+    },
+    {
+      "id": "paymentService->mainDatabase",
+      "source": "paymentService",
+      "target": "mainDatabase"
+    },
+    {
+      "id": "tenantService->mainDatabase",
+      "source": "tenantService",
+      "target": "mainDatabase"
+    },
+    {
+      "id": "productService->searchEngine",
+      "source": "productService",
+      "target": "searchEngine"
+    },
+    {
+      "id": "productService->cacheLayer",
+      "source": "productService",
+      "target": "cacheLayer"
+    },
+    {
+      "id": "orderService->cacheLayer",
+      "source": "orderService",
+      "target": "cacheLayer"
+    },
+    {
+      "id": "orderService->messageQueue",
+      "source": "orderService",
+      "target": "messageQueue"
+    },
+    {
+      "id": "paymentService->messageQueue",
+      "source": "paymentService",
+      "target": "messageQueue"
+    }
+  ]
+}
