@@ -92,11 +92,7 @@ Stack: Frontend (React, Tailwind) Backend: Python, MongoDB, MySQL, NodeJS
 
 ## Project Video
 - Link to the project video:   
-	- [Chat Feature](https://drive.google.com/file/d/1QQ4VmYnWYbEDmQOgfC68dg5knUnID6PM/view?usp=sharing)
-	- [Edit Diagram](https://drive.google.com/file/d/1tDpYgNVE4Ua0jkdtWZNhLgmJJCo9Liy0/view?usp=sharing) 
-	- [Hide Layer](https://drive.google.com/file/d/1URPbvNZk5KZHrJjyUL19eM5ll6AsvXds/view?usp=sharing)
-	- [Dark/Light Mode](https://drive.google.com/file/d/13xl9Fp8Tl8Hlnt2JCs7ZvoqijLfoQjBZ/view?usp=sharing)
-	- [Save/Load as JSON](https://drive.google.com/file/d/1ZX4d6vqnlm4zZKvPMwOke-z4pKYIOTYm/view?usp=sharing)
+	https://drive.google.com/file/d/1LEubIk5M3A7qGNRoqde0hqTVqdx1DriJ/view
 
 ## Link to the Demo:
   - Frontend: https://tentacle.pink
